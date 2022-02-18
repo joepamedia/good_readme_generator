@@ -18,17 +18,38 @@ const collectUserInfo = () => {
       {
         type: "input",
         name: "title",
-        message: "enter your title",
+        message: "enter your project title",
       },
       {
         type: "input",
         name: "description",
-        message: "enter a brief description about your repository",
+        message: "enter a brief description about your ",
+      },
+      {
+        type: "input",
+        name: "usageInfo",
+        message: "enter usage information",
       },
       {
         type: "input",
         name: "author",
         message: "enter your name",
+      },
+      {
+        type: "input",
+        name: "githubName",
+        message: "enter your github username",
+      },
+      {
+        type: "input",
+        name: "authorEmail",
+        message: "enter your email",
+      },
+      {
+        type: "list",
+        name: "licenseType",
+        message: "What is your license?",
+        choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"],
       },
     ])
     .then((answers) => {
