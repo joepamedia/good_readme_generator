@@ -18,12 +18,32 @@ const collectUserInfo = () => {
       {
         type: "input",
         name: "title",
-        message: "enter your project title",
+        message: "Enter your project title",
       },
       {
         type: "input",
-        name: "description",
-        message: "enter a brief description about your ",
+        name: "descriptionWhat",
+        message: "What was your motivation to create this project?",
+      },
+      {
+        type: "input",
+        name: "descriptionWhy",
+        message: "Why did you build this project? ",
+      },
+      {
+        type: "input",
+        name: "descriptionSolve",
+        message: "What problem does your project solve? ",
+      },
+      {
+        type: "input",
+        name: "descriptionLearn",
+        message: "What did you learn? ",
+      },
+      {
+        type: "input",
+        name: "descriptionWhy",
+        message: "What was your motivation to create this project ",
       },
       {
         type: "input",
@@ -48,8 +68,8 @@ const collectUserInfo = () => {
       {
         type: "list",
         name: "licenseType",
-        message: "What is your license?",
-        choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"],
+        message: "choose your license",
+        choices: ["MIT", "APACHE_2.0", "GPL_3.0", "BSD_3", "None"],
       },
     ])
     .then((answers) => {

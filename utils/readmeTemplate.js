@@ -1,57 +1,66 @@
-function renderLicense(licenseType) {
+// will return badge that user chooses
+function renderLicenseBadge(licenseType) {
   if (licenseType !== "None") {
     return `![${licenseType}](https://img.shields.io/badge/License-${licenseType}-blue.svg)`;
   } else {
     return "";
   }
 }
-// type is license type
-function renderLicenseText({ licenseType, title, author }) {
-  if (licenseType !== "None") {
-    return "";
-  } else if (licenseType === "MIT") {
-    return ` Copyright <YEAR> ${author}
 
-    Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-    
-    The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-    
-    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    `;
+function renderLicenseText(licenseType) {
+  if (licenseType !== "None") {
+    return ` `;
+  } else if (licenseType === "MIT") {
+    return ``;
+  } else if (licenseType === "APACHE_2.0") {
+    return ``;
+  } else if (licenseType === "GPL_3.0") {
+    return ``;
+  } else if (licenseType === "BSD_3") {
+    return ``;
   } else {
-    return "";
+    return ``;
   }
 }
 
 // ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None']
 const readMeTemplate = (answers) => {
   return `
-   # ${answers.title} ${renderLicense(answers.licenseType)}
+   # ${answers.title} ${renderLicenseBadge(answers.licenseType)}
+
   ## Table of Contents
-  -[Description](#description)
-  -[Installation](#installation)
-  -[Usage](#usage)
-  -[Liscense](#license)
-   ### ${answers.description}
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Liscense](#license)
   
-   # Installation Instructions
+  # Description 
+  ### ${answers.descriptionWhat} ${answers.descriptionWhy} ${answers.descriptionSolve} ${answers.descriptionLearn} 
+  
+  # Installation
    ### First, make sure you have Node.js installed. [Click here](!https://nodejs.org/en/download/) to install Node JS. 
 
-   # Usage Information
+  # Usage Information
    ### ${answers.usageInfo}
 
-   # GitHub Info 
-   ## Author
-   ### ${answers.author}
+  # License
+  ### ${renderLicenseText(answers.licenseType)}
 
-   ## GitHub
+  
+
+
+  # Questions
+  If you have any questions, please contact me using a method below.   
+  ## GitHub
    ### ${answers.githubName}
 
    ## Email
    ### ${answers.authorEmail}
+   ## GitHub Info 
+   ### Author
+   ### ${answers.author}
 
-  ## License
-  ### ${renderLicenseText(answers)}
+  
   
     
     
