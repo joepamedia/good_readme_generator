@@ -1,43 +1,42 @@
+# README.md Generator ![BSD_3](https://img.shields.io/badge/License-BSD_3-blue.svg)
 
-   # joe  ![APACHE_2.0](https://img.shields.io/badge/License-APACHE_2.0-blue.svg)
+## Table of Contents
 
-  ## Table of Contents
-  * [Description](#description)
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [Liscense](#license)
-  
-  # Description 
-  ### joe joe joe joe 
-  
-  # Installation
-   ### First, make sure you have Node.js installed. [Click here](!https://nodejs.org/en/download/) to install Node JS. 
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Liscense](#license)
 
-  # Usage Information
-   ### jeo
+# Description
 
-  # License
-  ### 
+### I wanted to create descriptive READMEs by answering questions based on the project. I built this to quickly create descriptive README.md files. This solves the amount of time it could potentially take to create a README.md file. I learned how to ask questions through the command line and took the answers and had them created into a README.md.
 
-  
+# Installation
 
+### First, make sure you have Node.js installed. [Click here](https://nodejs.org/en/download/) to install Node JS.
 
-  # Questions
-  If you have any questions, please contact me using a method below.   
-  ## GitHub
-   ### joe
+# Usage
 
-   ## Email
-   ### jo
-   ## GitHub Info 
-   ### Author
-   ### joe
+### This was created with inquirer.
 
-  
-  
-    
-    
-    
-    
-    
-    
+# License
+
+### This project's license is BSD_3.
+
+# Questions
+
+If you have any questions, please contact me using a method below.
+
+## GitHub
+
+### [Github](https://github.com/joepamedia/)
+
+## Email
+
+### josephpalmisano18@gmail.com
+
+## GitHub Info
+
+### Author
+
+### Joe Palmisano

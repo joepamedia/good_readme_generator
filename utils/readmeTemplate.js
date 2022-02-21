@@ -8,18 +8,16 @@ function renderLicenseBadge(licenseType) {
 }
 
 function renderLicenseText(licenseType) {
-  if (licenseType !== "None") {
-    return ` `;
-  } else if (licenseType === "MIT") {
-    return ``;
+  if (licenseType === "MIT") {
+    return `This project's license is ${licenseType}.`;
   } else if (licenseType === "APACHE_2.0") {
-    return ``;
+    return `This project's license is ${licenseType}.`;
   } else if (licenseType === "GPL_3.0") {
-    return ``;
+    return `This project's license is ${licenseType}.`;
   } else if (licenseType === "BSD_3") {
-    return ``;
+    return `This project's license is ${licenseType}.`;
   } else {
-    return ``;
+    return `This project does not have a license.`;
   }
 }
 
@@ -38,9 +36,9 @@ const readMeTemplate = (answers) => {
   ### ${answers.descriptionWhat} ${answers.descriptionWhy} ${answers.descriptionSolve} ${answers.descriptionLearn} 
   
   # Installation
-   ### First, make sure you have Node.js installed. [Click here](!https://nodejs.org/en/download/) to install Node JS. 
+   ### First, make sure you have Node.js installed. [Click here](https://nodejs.org/en/download/) to install Node JS. 
 
-  # Usage Information
+  # Usage
    ### ${answers.usageInfo}
 
   # License
@@ -52,7 +50,7 @@ const readMeTemplate = (answers) => {
   # Questions
   If you have any questions, please contact me using a method below.   
   ## GitHub
-   ### ${answers.githubName}
+   ### [Github](https://github.com/${answers.githubName}/)
 
    ## Email
    ### ${answers.authorEmail}
