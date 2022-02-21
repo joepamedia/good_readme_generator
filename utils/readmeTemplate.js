@@ -36,10 +36,17 @@ const readMeTemplate = (answers) => {
   ### ${answers.descriptionWhat} ${answers.descriptionWhy} ${answers.descriptionSolve} ${answers.descriptionLearn} 
   
   # Installation
-   ### First, make sure you have Node.js installed. [Click here](https://nodejs.org/en/download/) to install Node JS. 
+   ### First, make sure you have Node.js installed. [Click here](https://nodejs.org/en/download/) to install Node JS. Then install [Inquirer] (https://www.npmjs.com/package/inquirer).
 
   # Usage
    ### ${answers.usageInfo}
+
+  # Tests
+  ### Clone my code and run different tests!
+
+
+  # Contributions
+  ### If you wish to contribute, contact me via email at ${answers.authorEmail}
 
   # License
   ### ${renderLicenseText(answers.licenseType)}
