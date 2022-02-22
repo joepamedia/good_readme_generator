@@ -1,42 +1,50 @@
-# README.md Generator ![BSD_3](https://img.shields.io/badge/License-BSD_3-blue.svg)
 
-## Table of Contents
+   # README Gen ![GPL_3.0](https://img.shields.io/badge/License-GPL_3.0-blue.svg)
 
-- [Description](#description)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Liscense](#license)
+  ## Table of Contents
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Liscense](#license)
+  
+  # Description 
+  ### this thath thsdgi sdghsdg 
+  
+  # Installation
+   ### First, make sure you have Node.js installed. [Click here](https://nodejs.org/en/download/) to install Node JS. Then install [Inquirer] (https://www.npmjs.com/package/inquirer).
 
-# Description
+  # Usage
+   ### sdg
 
-### I wanted to create descriptive READMEs by answering questions based on the project. I built this to quickly create descriptive README.md files. This solves the amount of time it could potentially take to create a README.md file. I learned how to ask questions through the command line and took the answers and had them created into a README.md.
+  # Tests
+  ### Clone my code and run different tests!
 
-# Installation
 
-### First, make sure you have Node.js installed. [Click here](https://nodejs.org/en/download/) to install Node JS.
+  # Contributions
+  ### If you wish to contribute, contact me via email at sdgsdg
 
-# Usage
+  # License
+  ### This project's license is GPL_3.0.
 
-### This was created with inquirer.
+  
 
-# License
 
-### This project's license is BSD_3.
+  # Questions
+  If you have any questions, please contact me using a method below.   
+  ## GitHub
+   ### [Github](https://github.com/joepamedia/)
 
-# Questions
+   ## Email
+   ### sdgsdg
+   ## GitHub Info 
+   ### Author
+   ### sdsdg
 
-If you have any questions, please contact me using a method below.
-
-## GitHub
-
-### [Github](https://github.com/joepamedia/)
-
-## Email
-
-### josephpalmisano18@gmail.com
-
-## GitHub Info
-
-### Author
-
-### Joe Palmisano
+  
+  
+    
+    
+    
+    
+    
+    
