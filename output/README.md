@@ -1,5 +1,5 @@
 
-   # README Gen ![GPL_3.0](https://img.shields.io/badge/License-GPL_3.0-blue.svg)
+   # Example Title ![BSD_3](https://img.shields.io/badge/License-BSD_3-blue.svg)
 
   ## Table of Contents
   * [Description](#description)
@@ -8,23 +8,23 @@
   * [Liscense](#license)
   
   # Description 
-  ### this thath thsdgi sdghsdg 
+  ### Example Motivation. Example Why. Example Solve. Example Learn. 
   
   # Installation
-   ### First, make sure you have Node.js installed. [Click here](https://nodejs.org/en/download/) to install Node JS. Then install [Inquirer] (https://www.npmjs.com/package/inquirer).
+   ### First, make sure you have Node.js installed. [Click here](https://nodejs.org/en/download/) to install Node JS. Then install [Inquirer](https://www.npmjs.com/package/inquirer).
 
   # Usage
-   ### sdg
+   ### Example Usage Info
 
   # Tests
   ### Clone my code and run different tests!
 
 
   # Contributions
-  ### If you wish to contribute, contact me via email at sdgsdg
+  ### If you wish to contribute, contact me via email at josephpalmisano18@gmail.com
 
   # License
-  ### This project's license is GPL_3.0.
+  ### This project's license is BSD_3.
 
   
 
@@ -35,10 +35,10 @@
    ### [Github](https://github.com/joepamedia/)
 
    ## Email
-   ### sdgsdg
+   ### josephpalmisano18@gmail.com
    ## GitHub Info 
    ### Author
-   ### sdsdg
+   ### Joe Palmisano
 
   
   
